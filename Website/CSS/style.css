@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr    {
+    clear: both;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/*=============== navbar part goes here ===========*/
+.logo {
+    width: 270px;
+    float: left;
+}
+.logo img {
+    padding-top: 25px;
+}
+.menu {
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #444;
+    transition: all linear .3s;
+    font-weight: 500;
+    font-size: 20px;
+}
+.menu ul li a:hover {
+    color: rgb(246, 123, 21);
+}

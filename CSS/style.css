@@ -1,0 +1,35 @@
+
+h3 {
+    color: red;
+}
+#one {
+    color: greenyellow;
+}
+* {
+    color: blue;
+}
+div {
+    width: 132px;
+    height: 132px;
+    background-color: yellowgreen;
+}
+
+h4 {
+    color: #fff;
+    background:tomato;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-style: italic;
+
+}
+h5 {
+    color: #fff;
+    background-color: teal;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 150px;
+}

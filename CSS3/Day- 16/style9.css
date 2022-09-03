@@ -1,0 +1,16 @@
+ /*All about External CSS*/
+
+i.fa {
+    color: green;
+    font-size: 332px;
+}
+
+i.fa-brands {
+    color: blue;
+    font-size: 132px;
+    background-color: #fff;
+}
+
+table, th, td{
+  border: 2px solid;
+}

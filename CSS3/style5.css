@@ -1,0 +1,44 @@
+ /*All about External CSS*/
+
+#one {
+    color: darkblue;
+    background: orange;
+}
+
+#two {
+    border-color: green;
+    border-style: dotted;
+    border-width: thin;
+}
+
+#three {
+    border-color: blue;
+    border-style: ridge;
+    border-width: thick;
+}
+
+.ok {
+    background-image: url('css3.png');
+    width: 300 px;
+    height: 250 px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200 px 200 px;
+    background-attachment: scroll;
+    
+    border-color: red;
+    border-style: ridge;
+    border-width: solid;
+}
+#four {
+    border-color: darkgoldenrod;
+    border-style: solid;
+    border-width: thin;
+}
+.ok1 {
+    width: 400 px;
+    height: 450 px;
+    border-width: 5px 10px 20px;
+    border-color: darkgreen darkblue darkred orangered;
+    border-style: solid;
+}

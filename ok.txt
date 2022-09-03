@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML - html tag</title>
+</head>
+
+<body>
+  <p>I am not a perfect Muslin,  But i am trying to be!</p>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+
+<head>
+<title>HTML Elements Reference</title>
+</head>
+
+<body>
+
+<h1>Sorowar Mahabub</h1>
+<h2>Sorowar Mahabub</h2>
+<h3>Sorowar Mahabub</h3>
+<h4>Sorowar Mahabub</h4>
+<h5>Sorowar Mahabub</h5>
+<h6>Sorowar Mahabub</h6>
+
+<a href="https://www.sites.google.com/view/sorowarmahabub/home">Visit Sorowar's Profile</a>
+<a href="https://www.google.com"></a>
+
+<p><b>Tip:</b> Use h1 to h6 elements only for headings. Do not use them just to make text bold or big. Use other tags for that.</p>
+
+</body>
+</html>
+

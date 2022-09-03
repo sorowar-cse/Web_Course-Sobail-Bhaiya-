@@ -1,0 +1,28 @@
+ /*All about External CSS*/
+
+ table {
+  width: 100%;
+ }
+table, th, td{
+  border: 3px solid;
+  empty-cells: hide;
+  font-size: 20px;
+}
+th {
+  height: 50px;
+  width: 100px;
+  vertical-align: bottom;
+}
+tr, td {
+  text-align: center;
+}
+tr:hover {
+  background-color: yellow;
+}
+thead, tbody, tfoot, tr:nth-child(even) {
+  background-color: rgb(43, 226, 95);
+}
+div {
+  overflow-x: auto;
+  caption-side: bottom;
+}

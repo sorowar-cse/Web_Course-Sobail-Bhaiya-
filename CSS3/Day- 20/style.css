@@ -1,0 +1,60 @@
+h1 {
+    background: azure;
+    display: inline;
+    text-align: center;
+    color: crimson;
+}
+
+body {
+    /* background-image: url('../../../../5th/AA-03/img/bg.png'); */
+    background: #000;
+    color: hsl(0, 40%, 98%);
+}
+
+.one {
+    width: 590px;
+    height: 100px;
+    background: red;
+    /* Inline likhle height, width esb kaz krbena */
+    display: inline-block;
+    /* visibility off hbe but space rekhe dibe */
+    visibility: hidden;
+    /* display: none; eta krle space soho cere dibe */
+}
+
+ul li {
+    /* inline use krate eta akline e cle asbeee */
+    display: inline;
+}
+
+p {
+    border: 3px solid darkgreen;
+}
+
+.chk-width {
+    width: 650px;
+    
+}
+
+.max-width {
+   max-width: 250px;
+   margin: auto;
+}
+
+.two {
+    width: 50%;
+    height: 250px;
+    background: darkblue;
+    position: relative;
+    top: 80;
+    right: 0;
+}
+.three {
+    width: 30%;
+    height: 150px;
+    background: darkgoldenrod;
+    position: absolute;
+    /* e jar vitore ace tar theke  30px nice nambeee */
+    top: 30px;
+
+}

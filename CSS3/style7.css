@@ -1,0 +1,21 @@
+ /*All about External CSS*/
+
+
+p {
+    font-size: 132px;
+    line-height: 2;
+    white-space: nowrap;
+    text-shadow: 44px 1px darkgreen;
+    font-family: 'Titillium Web';
+    font-weight: 700;
+}
+
+
+a{
+    text-decoration: underline;
+    text-decoration-thickness: 12px;
+    text-decoration-color: darkblue;
+    color: red;
+    text-decoration-style: dotted;
+    font-family: tahoma;
+}

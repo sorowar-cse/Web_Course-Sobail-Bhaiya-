@@ -1,0 +1,42 @@
+ /*All about External CSS*/
+#one {
+    color: darkblue;
+    background: orange;
+}
+
+.ok1 {
+    background-color: tomato;
+    width: 300 px;
+    height: 300 px;
+}
+
+.ok1 p {
+    border: 5px solid yellow;
+    background-color: aqua;
+}
+
+.ok2 {
+    background-image: url('css1.jpg');
+    width: 300 px;
+    height: 300 px;
+}
+
+.ok2 p {
+    background-color: red;
+}
+
+.ok3 {
+    color: darkblue;
+}
+
+.ok3 h1 {
+    color: initial;
+}
+
+.parent {
+    color: green;
+}
+
+.child {
+    color: inherit; 
+}

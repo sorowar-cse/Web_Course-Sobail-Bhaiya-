@@ -1,0 +1,71 @@
+ /*All about External CSS*/
+
+
+.ok {
+  margin-left: 100px;
+  height: 400px;
+  width: 400px;
+  border: 3px solid black;
+  background-color: blanchedalmond;
+}
+
+.ok1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+  background-color: antiquewhite;
+}
+
+.ok2 {
+  margin-left: 25px;
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+  border: 3px solid black;
+  background-color: wheat;
+}
+
+.ok3 {
+  margin-left: 18px;
+  margin-top: 15px;
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  background-color: red;
+}
+
+.ok3 h1, p {
+  padding-top: 45px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.ok3 h1:hover, p:hover {
+  padding-top: 25px;
+  text-align: center;
+  color: yellow;
+  font-size: 34px;
+}
+
+.ok4 {
+  margin-left: 100px;
+  margin-top: 100px;
+  height: 500px;
+  width: 500px;
+  border: 3px solid black;
+  background-image: linear-gradient(red 0% 50%, blue, green, yellow 75% 95%, violet);
+}
+
+.ok5 {
+  margin-left: 100px;
+  margin-top: 100px;
+  height: 500px;
+  width: 500px;
+  border: 3px solid black;
+  background-image: radial-gradient(red 0% 50%, blue, green, yellow 75% 95%, violet);
+}
+
+
+

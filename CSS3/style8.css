@@ -1,0 +1,37 @@
+ /*All about External CSS*/
+
+i.fa {
+    color: blue;
+    font-size: 132px;
+}
+
+a{
+    text-decoration: underline;
+    background-color: darkblue;
+    color: red;
+    text-decoration-style: dotted;
+    padding: 7px 7px;
+}
+
+a:hover {
+    background: blue;
+    color: #000;
+}
+
+a:active {
+    color: green;
+    background: yellow;
+}
+
+a:visited {
+    color: aqua;
+    background: tomato;
+}
+
+ul {
+    list-style-type: upper-alpha;
+}
+
+ol {
+    list-style: decimal-leading-zero;
+}

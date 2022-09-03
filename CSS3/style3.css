@@ -1,0 +1,49 @@
+ /*All about External CSS*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#one {
+    color: darkblue;
+    background: orange;
+}
+
+div {
+    width: 332px;
+    height: auto;
+    color: greenyellow;
+    background: red;
+}
+
+.DivClass {
+     background-color: yellowgreen;
+     border: 5px solid yellow;
+}
+
+.DivClass h2 {
+    color: darkgoldenrod;
+}
+
+.DivClass p {
+     color: darkcyan;
+}
+
+#two {
+    background-color: tomato;
+    opacity: 0.8;
+}
+
+#three {
+    background-color: lawngreen;
+}
+
+#four {
+    background-color: lawngreen;
+    opacity: 0.8;
+}
+
+* {
+    color: darkred;
+    background: lightgray;
+}

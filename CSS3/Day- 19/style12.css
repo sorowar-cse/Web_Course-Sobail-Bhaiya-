@@ -1,0 +1,140 @@
+ /*All about External CSS*/
+
+* {
+  margin: 3px;
+  padding: 5px;
+}
+
+#one {
+  color: antiquewhite;
+  background-color: red;
+}
+
+#one:hover {
+  color: royalblue;
+  background-color: yellowgreen;
+}
+
+.all0, .all1, .all2 {
+  display: flex;
+}
+.a {
+  height: 250px;
+  width: 250px;
+  border: 3px solid red;
+  margin: 50px;
+  background-image: linear-gradient(to top right, yellow, green);
+}
+
+.b {
+  height: 250px;
+  width: 250px;
+  border: 3px solid red;
+  margin: 50px;
+  background-image: repeating-linear-gradient(darkblue  0% 10%, green 10% 35%, yellow 35% 50%);
+}
+
+p {
+  margin-top: 30px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.c {
+  height: 250px;
+  width: 700px;
+  border: 3px solid red;
+  margin: 50px;
+  background-image: radial-gradient(red 0% 40%, green 40%);
+}
+
+.d {
+  height: 250px;
+  width: 250px;
+  border: 3px solid red;
+  margin: 50px;
+  background-image: radial-gradient(at 20%, red 0% 25%, darkgreen 25% 60%, blue 60%);
+}
+
+.e {
+  height: 250px;
+  width: 250px;
+  border: 3px solid red;
+  margin: 50px;
+  background-image: conic-gradient(from 45deg, red 0deg 90deg, green 90deg 180deg, yellow 180deg 270deg, darkgreen 270deg);
+}
+
+.f1 {
+  height: 250px;
+  width: 250px;
+  border: 1px solid red;
+  margin: 50px;
+  background-image: linear-gradient(red 0% 33%, blue 33% 66%, yellow 66% 100%)
+}
+.d1 {
+  height:  300px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 30px 50px;
+  border-radius: 30px;
+  background-image: conic-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+.d2 {
+  height:  250px;
+  width: 250px;
+  border: 2px solid black;
+  margin: 19px 16px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.d3 {
+  height:  200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 19px 16px;
+  border-radius: 20px;
+  background-image: conic-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+.d3a {
+  height:  20px;
+  width: 20px;
+  border: 2px solid black;
+  margin: 19px 150px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.d3b {
+  height:  120px;
+  width: 120px;
+  border: 2px solid black;
+  margin: -22px auto;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.d4 {
+  height:  70px;
+  width: 70px;
+  border: 2px solid black;
+  margin: 15px auto;
+  border-radius: 50px;
+  background-image: conic-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80, #405DE6, #5851DB, #833AB4, #C13584);
+}
+
+.f {
+  height: 250px;
+  width: 250px;
+  border: 15px dotted darkslategrey;
+  margin: 50px;
+  background-image: linear-gradient(45deg, red 50%, green 50%);
+  transform: rotate(65deg);
+}
+
+
+
+
+

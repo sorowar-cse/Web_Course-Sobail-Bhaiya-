@@ -1,0 +1,32 @@
+ /*All about External CSS*/
+
+ #one {
+  color: darkgreen;
+ }
+
+ table {
+  width: 100%;
+ }
+table, th, td{
+  border: 7px doted;
+  empty-cells: hide;
+  font-size: 20px;
+}
+th {
+  height: 50px;
+  width: 100px;
+  vertical-align: top;
+}
+tr, td {
+  text-align: right;
+}
+tr:hover {
+  background-color: darkorange;
+}
+thead, tbody, tfoot, tr:nth-child(odd) {
+  background-color:yellow;
+}
+div {
+  overflow-x: auto;
+  caption-side: bottom;
+}
