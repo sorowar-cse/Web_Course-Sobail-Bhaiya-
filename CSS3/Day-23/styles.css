@@ -1,0 +1,9 @@
+/* Decendent Selector: div p */
+.one p {
+    background: red;
+}
+/* Child Selector: div > p  */
+.two > p {
+    background: red;
+}
+/* Child Selector: div > p  */
