@@ -4,6 +4,16 @@
 }
 /* Child Selector: div > p  */
 .two > p {
-    background: red;
+    background: yellowgreen;
 }
-/* Child Selector: div > p  */
+.two > section {
+    background: green;
+}
+/* Adjacent Siblings Selector: div + p  */
+.three+p {
+    background: rgb(14, 49, 14);
+}
+/* General jacent Siblings Selector: div ~ p  */
+.four~p {
+    background: rgb(231, 170, 17);
+}
