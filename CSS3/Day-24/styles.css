@@ -1,0 +1,62 @@
+/* CSS Pseudo Class  */
+h2 {
+    color: #fff;
+    background: yellowgreen;
+}
+
+h2:hover {
+    background: red;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: forestgreen;
+}
+
+/* mouse over link */
+a:hover {
+    background: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.one {
+    height: 72px;
+    width: 532px;
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 350px;
+    font-size: 3rem;
+}
+
+.one:hover {
+    border: 5px dotted darkcyan;
+}
+
+.two {
+    font: 1.5em sans-serif;
+}
+
+p {
+    display: none;
+}
+
+.two:hover p {
+    display: block;
+    color: #fff;
+    background: yellowgreen;
+}
+
+h1:first-child {
+    font-size: 2rem;
+    color: bisque;
+    background: red;
+}
