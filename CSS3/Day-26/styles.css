@@ -1,0 +1,47 @@
+/* CSS Pseudo Class  */
+h1 {
+    color: rgb(19, 128, 76);
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: forestgreen;
+}
+
+/* mouse over link */
+a:hover {
+    background: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.one {
+    height: 72px;
+    width: 532px;
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 330px;
+    font-size: 3rem;
+}
+
+.one:hover {
+    border: 5px dotted darkcyan;
+}
+
+/* code for day-25 starts here  */
+.alldiv {
+    display: flex;
+  gap: 15px;
+}
+.ok{
+    border: 1px solid darkorchid;
+}
+
+/* Main Code of Today  */
