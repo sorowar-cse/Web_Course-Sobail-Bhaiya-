@@ -60,4 +60,13 @@ a:active {
   p::after { 
     content: url(sorowar-1.jpg);
   }
-  
+  ::marker {
+    color: brown;
+    font-size: 2rem;
+  }
+  ::selection {
+    color: chartreuse;
+    background: grey;
+    /* cursor: pointer; */
+    /* outline: 5px solid red; */
+  }
