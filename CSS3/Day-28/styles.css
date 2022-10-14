@@ -3,6 +3,7 @@ h1 {
   color: rgb(19, 128, 76);
   background: wheat;
   border-radius: 15px;
+  margin-top: 275px;
 }
 
 /* unvisited link */
@@ -53,13 +54,74 @@ a:active {
 
 /* Main Code of Today  */
 
-.two {
+.two img {
   height: 232px;
   width: 332px;
-
-  background-image: url("card-1.jpg");
   opacity: 0.8;
-  color: yellow;
+
+  /* background-image: url("card-1.jpg");
+  color: yellow; */
 
   /* background-image: linear-gradient(rgb(140, 186, 24)), url('card-1.jpg'); */
+}
+
+.two img:hover {
+  height: 232px;
+  /* width: 332px; */
+  opacity: 0.2;
+}
+
+.backround {
+  background-image: url("card-1.jpg");
+  height: 232px;
+  opacity: 0.2;
+}
+
+.transparent {
+  background: #000;
+  color: #fff;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.ok {
+background: wheat;
+}
+.nav1{
+  background: rgb(64, 91, 19);
+  position: fixed;
+  color: #fff;
+  border-radius: 35px;
+  display: block;
+}
+.nav ul {
+  list-style-type: none;
+ display: flex;
+ flex-direction: row;
+  gap: 10px;
+  color: rgb(126, 195, 46);
+  font-size: 48px;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav ul li a:hover{
+  border: 2px solid darkorange;
+  border-radius: 15px;
+  background: yellow;
+  color: rgb(222, 144, 8);
+}
+
+.our-nav{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font: 2em sans-serif;
+}
+.our-nav p{
+font-size: 18px;
+color: rgb(141, 113, 241);
 }
