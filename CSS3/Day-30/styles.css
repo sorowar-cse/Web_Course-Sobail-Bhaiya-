@@ -3,13 +3,42 @@
     padding: 5px;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+li {
+    list-style: none;
 }
 
-.flex a {
+a {
     text-decoration: none;
+    background: black;
     font-size: 2rem;
+    color: white;
+    display: block;
+}
+
+a:hover{
+    background: red;
+}
+
+ul {
+    display: flex;
+}
+
+.DropdownMenu {
+    display: none;
+}
+
+.DropdownMen li:hover u{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.DropdownMenu2 {
+    display: none;
+}
+
+.ok:hover .DropdownMenu2 {
+    display: block;
+    position: absolute;
+    left: 100%;
 }

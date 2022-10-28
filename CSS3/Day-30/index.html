@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,38 @@
     <title>Day-30</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <center><h1>All About Navbar</h1></center>
+    <center>
+        <h1>All About Navbar</h1>
+    </center>
 
     <div class="flex ">
-        <a id="a" href="">Home</a>
-        <a id="b" href="">About</a>
-        <a id="c" href="">Blogs</a>
-        <a id="d" href="">Templates</a>
-        <a id="e" href="">Contact</a>
+        <ul>
+            <li><a id="a" href="">Home</a></li>
+            <li><a id="b" href="">About</a></li>
+            <ul class="DropdownMenu">
+                <li class="ok"><a href="">Drop-1</a></li>
+                <ul class="DropdownMenu2">
+                    <li><a href="">Drop-1</a></li>
+                    <li><a href="">Drop-2</a></li>
+                    <li><a href="">Drop-3</a></li>
+                </ul>
+                <li><a href="">Drop-2</a></li>
+                <li><a href="">Drop-3</a></li>
+            </ul>
+            <li><a id="c" href="">Blogs</a></li>
+            <li><a id="d" href="">Templates</a></li>
+            <ul class="DropdownMenu">
+                <li><a href="">Drop-4</a></li>
+                <li><a href="">Drop-5</a></li>
+                <li><a href="">Drop-6</a></li>
+            </ul>
+            <li><a id="e" href="">Contact</a></li>
+        </ul>
+
     </div>
 </body>
+
 </html>
