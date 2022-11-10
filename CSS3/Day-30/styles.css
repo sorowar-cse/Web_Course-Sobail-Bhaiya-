@@ -1,10 +1,12 @@
 * {
-    margin: 0;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
     list-style: none;
+    width: 100%;
+    text-align: center;
 }
 
 a {
@@ -23,11 +25,12 @@ ul {
     display: flex;
 }
 
-.DropdownMenu {
+.dropdownMenu1{
     display: none;
+    position: relative;
 }
 
-.DropdownMen li:hover u{
+li:hover .dropdownMenu1{
     display: block;
     display: flex;
     flex-direction: column;
@@ -35,10 +38,29 @@ ul {
 
 .DropdownMenu2 {
     display: none;
-}
-
-.ok:hover .DropdownMenu2 {
-    display: block;
     position: absolute;
     left: 100%;
+}
+
+.ok:hover .DropdownMenu2{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* Author Part  */
+.one {
+    height: 72px;
+    width: 532px;
+    border: 3px solid rgb(126, 210, 16);
+    text-align: center;
+    margin-left: 300px;
+    font-size: 2rem;
+}
+
+.one:hover {
+    border: 5px dotted darkcyan;
 }
