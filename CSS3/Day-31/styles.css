@@ -1,20 +1,39 @@
-* {
-    margin: 0;
-    padding: 5px;
-}
 
-body {
-    box-sizing: border-box;
-}
-
-.cl-1 {
+div.gallery {
     margin: 5px;
-    border: 2px solid yellowgreen;
+    border: 1px solid #ccc;
+    float: left;
     width: 180px;
-    height: 300px;
-}
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
 
-/* .cl-1 img {
-    width: 180px;
-    height: 300px;
-} */
+
+
+  /* dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   background: darkolivegreen;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
