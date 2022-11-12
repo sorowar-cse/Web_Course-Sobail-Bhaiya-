@@ -1,0 +1,66 @@
+.icons ul {
+  margin: 0;
+  padding: 0;
+}
+
+.icons ul li {
+  list-style: none;
+}
+.icons ul li:first-child {
+  margin-left: 300px;
+}
+.icons ul li:last-child {
+  margin-right: 0px;
+}
+
+.icons ul li a {
+  background-image: url(sprites.png);
+  background-repeat: no-repeat;
+  /* width: 350px;
+  height: 250px; */
+  width: 100px;
+  height: 100px;
+  /* display na dile chobi show krbena */
+  display: inline-block;
+  border: 3px solid red;
+  border-radius: 50%;
+  /* paspasi anar jnno */
+  float: left;
+  margin-right: 125px;
+  background-position: 0px 0px;
+  transition: 0.3s;
+}
+
+.icons ul li:hover:nth-child(1) a {
+  background-position: 0px -110px;
+}
+
+.icons ul li:nth-child(2) a {
+  background-position: -105px 0px;
+}
+
+.icons ul li:hover:nth-child(2) a {
+  background-position: -105px -110px;
+}
+
+.icons ul li:nth-child(3) a {
+  background-position: -315px 0px;
+}
+
+.icons ul li:hover:nth-child(3) a {
+  background-position: -315px -110px;
+}
+
+/* Author Part  */
+.one {
+  height: 172px;
+  width: 532px;
+  border: 3px solid rgb(126, 210, 16);
+  text-align: center;
+  margin-left: 300px;
+  font-size: 2rem;
+}
+
+.one:hover {
+  border: 5px dotted darkcyan;
+}
