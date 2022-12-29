@@ -111,3 +111,24 @@ body {
 }
 
 /* Right Column Section End Here  */
+
+/* Footer Section Start Here  */
+.footer {
+   
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 35px;
+    background-color: #fff; padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clearfix (Extra Code) */
+.footer::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Footer Section End Here  */
