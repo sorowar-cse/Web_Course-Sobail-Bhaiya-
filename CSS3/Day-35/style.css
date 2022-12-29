@@ -64,3 +64,50 @@ body {
 }
 
 /* Top Navigation Section End Here  */
+
+/* Main Section Start Here  */
+/* Main Section End Here  */
+
+/* Left Column Section Start Here  */
+.left-col {
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Left Column Section End Here  */
+
+/* Right Column Section Start Here  */
+.right-col {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.card2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.card2 p {
+    text-align: justify;
+}
+
+/* Right Column Section End Here  */
