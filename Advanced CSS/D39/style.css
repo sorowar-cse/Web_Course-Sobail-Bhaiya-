@@ -147,6 +147,7 @@ p {
     animation-name: sorowar;
     animation-duration: 4s;
     animation-iteration-count: 2;
+    animation-fill-mode: forwards;
 }
 
 .animation1:hover {
