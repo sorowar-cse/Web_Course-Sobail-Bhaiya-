@@ -15,6 +15,7 @@ h1 {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
 .row {
     display: flex;
     justify-content: center;
@@ -48,6 +49,7 @@ p {
     text-align: center;
 }
 
+/* Transitions  */
 .transitions {
     height: 175px;
     width: 175px;
@@ -83,4 +85,98 @@ p {
     height: 250px;
     width: 250px;
     background: rgb(6, 229, 6);
+}
+
+.transitions3 {
+    height: 175px;
+    width: 100px;
+    background: darkgreen;
+    transition: width 2s linear 0.5s;
+}
+
+.transitions3:hover {
+    width: 250px;
+}
+
+.transitions4 {
+    height: 175px;
+    width: 100px;
+    background: darkgreen;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 2s;
+}
+
+.transitions4:hover {
+    width: 250px;
+}
+
+/* Animation */
+.animation {
+    height: 175px;
+    width: 175px;
+    background: rgb(140, 193, 7);
+    animation: duration 5s infinite;
+}
+
+@keyframes duration {
+    0% {
+        background: rgb(227, 164, 5);
+    }
+
+    25% {
+        background: rgb(252, 28, 4);
+    }
+
+    50% {
+        background: rgb(7, 193, 119);
+    }
+
+    75% {
+        background: rgb(10, 133, 210);
+    }
+
+    100% {
+        background: rgb(131, 16, 188);
+    }
+}
+
+.animation1 {
+    width: 75px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: sorowar;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+}
+
+@keyframes sorowar {
+    0% {
+        background-color: red;
+        left: 0px; 
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 250px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 250px;
+        top: 250px;
+    }
+
+    75% {
+        background-color: green;
+        top: 250px;
+        left: -550px;
+    }
+
+    100% {
+        background-color: red;
+        left: -550px;
+        top: 0px;
+    }
 }
