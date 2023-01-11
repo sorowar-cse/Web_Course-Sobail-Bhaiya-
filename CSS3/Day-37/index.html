@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-37</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            text-align: center;
+            color: #fff;
+            background-color: #000;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Day-37</h1>
+
+    <h2 style="background-color: blue;">Task-1</h2>
+    <p class="pp">Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.</p>
+    <script>
+        let a = 5;
+        let b = 6;
+        let c = 7;
+        let s = (a + b + c) / 2;
+        let area = Math.sqrt(s * ((s - a) * (s - b) * (s - c)));
+        console.log(area);
+    </script>
+
+    <h2>Task-2</h2>
+    <p>Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.</p>
+    <script>
+        let str = "w3resource";
+        let arr = str.split("");
+        let arr2 = [];
+        for (let i = 0; i < arr.length; i++) {
+            arr2.push(arr.pop());
+            arr.unshift(arr2[i]);
+            console.log(arr.join(""));
+        }
+    </script>
+
+    <h2>Task-3</h2>
+    <p>Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.</p>
+    <script>
+        let year = 2020;
+        if (year % 4 == 0) {
+            console.log("Leap Year");
+        } else {
+            console.log("Not a Leap Year");
+        }
+    </script>
+
+    <h2>Task-4</h2>
+    <p>Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050.</p>
+    <script>
+        for (let i = 2014; i <= 2050; i++) {
+            let d = new Date(i, 0, 1);
+            if (d.getDay() == 0) {
+                console.log("1st January is being a Sunday  " + i);
+            }
+        }
+    </script>
+
+    <h2>Task-5</h2>
+    <p>Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".</p>
+
+    <!-- CSS Math Functions -->
+    <div class="func1">
+        <h2>Math Functions</h2>
+        <p>Math.abs(x) returns the absolute (positive) value of x</p>
+        <p>Math.ceil(x) rounds x up to its nearest integer</p>
+        <p>Math.floor(x) rounds x down to its nearest integer</p>
+        <p>Math.max(x, y, z, ..., n) returns the number with the highest value</p>
+        <p>Math.min(x, y, z, ..., n) returns the number with the lowest value</p>
+        <p>Math.pow(x, y) returns the value of x to the power of y</p>
+        <p>Math.random() returns a random number between 0 and 1</p>
+        <p>Math.round(x) rounds x to its nearest integer</p>
+        <p>Math.sqrt(x) returns the square root of x</p>
+    </div>
+
+    <!-- CSS Date Functions -->
+    <div class="func2">
+        <h2>Date Functions</h2>
+        <p>Date.now() returns the number of milliseconds since January 1, 1970</p>
+        <p>Date.parse(date) returns the number of milliseconds since January 1, 1970, 00:00:00 UTC</p>
+        <p>Date.UTC(year, month, day, hours, minutes, seconds, milliseconds) returns the number of milliseconds since January 1, 1970, 00:00:00 UTC</p>
+        <p>Date() creates a new date object with the current date and time</p>
+        <p>Date(year, month, day, hours, minutes, seconds, milliseconds) creates a new date object with the specified date and time</p>
+        <p>Date(milliseconds) creates a new date object as zero time plus milliseconds</p>
+        <p>Date(date string) creates a new date object as zero time plus time value string</p>
+</body>
+
+</html>

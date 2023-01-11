@@ -1,0 +1,37 @@
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(232, 8, 8);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: green;
+}
+
+div:hover {
+ border: 7px solid green;
+}
+
+#bimg {
+    border: 25px solid transparent;
+    padding: 20px;
+    border-image: url(img/border.png);
+    border-image-slice: 30;
+    border-image-width: 25;
+    border-image-repeat: repeat;
+}
+
+#borderimg { 
+    border: 10px solid transparent;
+    padding: 25px;
+    border-image: url(img/border.png) 30 40 round;
+  }
+
+#background {
+    width: 350px;
+    background-image: url(img/background1.jpg), url(img/background2.jpg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+}
