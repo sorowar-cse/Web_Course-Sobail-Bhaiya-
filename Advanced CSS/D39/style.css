@@ -140,13 +140,17 @@ p {
 }
 
 .animation1 {
-    width: 75px;
-    height: 50px;
+    width: 175px;
+    height: 75px;
     background-color: red;
     position: relative;
     animation-name: sorowar;
     animation-duration: 4s;
     animation-iteration-count: 2;
+}
+
+.animation1:hover {
+    animation-play-state: paused;
 }
 
 @keyframes sorowar {
