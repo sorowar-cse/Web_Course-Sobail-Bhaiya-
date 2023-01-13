@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div:hover {
+ border: 7px solid green;
+ text-align: center;
+} */
+h1 {
+    text-align: center;
+    color: rgb(235, 12, 12);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: rgb(17, 16, 16);
+}
+
+.author {
+    color: burlywood;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.box {
+    margin: 15px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.box:hover {
+    border: 7px solid rgb(52, 193, 52);
+}
+
+
+/* Day 40  */
+
+.tooltip {
+    position: relative;
+    padding: 7px;
+    width: 125px;
+    border-bottom: 3px dotted black;
+    display: inline-block;
+}
+
+.tooltiptext {
+    position: absolute;
+    background-color: rgb(119, 114, 114);
+    padding: 7px;
+    color: white;
+    visibility: hidden;
+    border-radius: 6px;
+    width: 120px;
+    text-align: center;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -10px;
+    opacity: 0;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+   opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(53, 237, 7) transparent transparent transparent;
+  }
+
+  .image2 img {
+   border-radius: 50%;
+  }
+
+  .responsive img {
+    width: 100%;
+    height: auto;
+  }
+
+
