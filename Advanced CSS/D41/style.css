@@ -15,6 +15,7 @@ h1 {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
 .row {
     display: flex;
     justify-content: center;
@@ -43,3 +44,151 @@ h1 {
 
 
 /* Day 41  */
+
+.image1 {
+    border: 7px double rgb(8, 244, 204);
+}
+
+.image2 img {
+    border-radius: 50%;
+}
+
+.image3 img:hover {
+    /* x-axis,  y-axis, blur-color, color-opacity */
+    /* box-shadow: 20px 25px 5px 0px rgba(249, 245, 5, 0.75); */
+    box-shadow: 0 0 3px 15px rgba(232, 235, 28, 0.5);
+}
+
+.responsive img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.shadow {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 15px;
+    border-radius: 45px 45px 15px 15px;
+}
+
+.shadow p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 30px 20px;
+    color: rgb(189, 59, 59);
+}
+/* .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} */
+
+.common_image img {
+    width: 300px;
+    height: 225px;
+}
+
+.container {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  .fade_image1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .profile {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .fade_image1 {
+    opacity: 0.3;
+  }
+  
+  .container:hover .profile {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: darkgreen;
+    color: white;
+    font-size: 14px;
+    padding: 16px 32px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 30PX;
+    right: 0;
+    height: 80%;
+    width: 84%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: darkgreen;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .overlay2 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: darkgreen;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text3 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
