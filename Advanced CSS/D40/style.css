@@ -94,3 +94,74 @@ h1 {
   }
 
 
+  .tooltiptext2 {
+    position: absolute;
+    background-color: rgb(119, 114, 114);
+    padding: 7px;
+    color: white;
+    visibility: hidden;
+    border-radius: 6px;
+    width: 120px;
+    text-align: center;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -10px;
+    opacity: 0;
+}
+
+.tooltip:hover .tooltiptext2 {
+    visibility: visible;
+   opacity: 1;
+}
+
+  .tooltip2 .tooltiptext2::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(53, 237, 7) transparent transparent transparent;
+  }
+
+
+
+  
+  /* .tooltiptext3 {
+    position: absolute;
+    background-color: rgb(119, 114, 114);
+    padding: 7px;
+    color: white;
+    visibility: hidden;
+    border-radius: 6px;
+    width: 120px;
+    text-align: center;
+    z-index: 1;
+    bottom: 5%;
+    left: -100%;
+    margin-left: -10px;
+    opacity: 0;
+}
+
+.tooltip:hover .tooltiptext3 {
+    visibility: visible;
+   opacity: 1;
+}
+
+  .tooltip3 .tooltiptext3::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(53, 237, 7) transparent   ;
+  } */
+
+  .tooltip-right {
+    top: -5px;
+    left: 125%;
+}
