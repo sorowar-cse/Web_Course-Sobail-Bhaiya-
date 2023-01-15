@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div:hover {
+ border: 7px solid green;
+ text-align: center;
+} */
+h1 {
+    text-align: center;
+    color: rgb(235, 12, 12);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.author {
+    display: flex;
+    color: burlywood;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 15px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.box:hover {
+    border: 7px solid rgb(52, 193, 52);
+}
+
+
+/* Day 42 */
+.Reflection {
+    margin-right: 500px;
+}
+.Reflection img {
+    -webkit-box-reflect: right 30px linear-gradient(to right, rgba(236, 8, 8, 0), rgba(200, 2, 2, 0.4));
+    width: 250px;
+    height: 200px;
+    display: block;
+}
+
+.Reflection2 {
+    border: none;
+}
+
+.Reflection2 img {
+    -webkit-box-reflect: left 30px;
+    width: 250px;
+    height: 200px;
+    display: block;
+}
+
+.object-fit1 img{
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.object-fit2 img{
+    width: 120px;
+    height: 80px;
+    object-fit: fill;
+}
+
+.object-fit3 img{
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.object-fit4 img{
+    width: 120px;
+    height: 80px;
+    object-fit: scale-down;
+}
+
+.object-fit5 img{
+    width: 120px;
+    height: 80px;
+    object-fit: none;
+}
