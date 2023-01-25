@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocu Shopping Zone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/323785951_892175548868394_4658339219849568055_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGM9ZMKqBTkSrHBrQJZRAYEeDwNve9purB4PA2972m6sCsx141vaclGpTtc3g4BHm2YPf26KXutje4qtAKUoFNj&_nc_ohc=_UAHQ2Dyvb8AX-wQJPF&tn=FlME49Hob4hde5ht&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfCd8-IqnCHjT7aBWbI5VC2n9X25OOff_smRFy8QYnqdLQ&oe=63CA3C3B" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                  
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/323785951_892175548868394_4658339219849568055_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGM9ZMKqBTkSrHBrQJZRAYEeDwNve9purB4PA2972m6sCsx141vaclGpTtc3g4BHm2YPf26KXutje4qtAKUoFNj&_nc_ohc=_UAHQ2Dyvb8AX-wQJPF&tn=FlME49Hob4hde5ht&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfCd8-IqnCHjT7aBWbI5VC2n9X25OOff_smRFy8QYnqdLQ&oe=63CA3C3B" width="30px" height="30px">
+            <img src="https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/323785951_892175548868394_4658339219849568055_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGM9ZMKqBTkSrHBrQJZRAYEeDwNve9purB4PA2972m6sCsx141vaclGpTtc3g4BHm2YPf26KXutje4qtAKUoFNj&_nc_ohc=_UAHQ2Dyvb8AX-wQJPF&tn=FlME49Hob4hde5ht&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfCd8-IqnCHjT7aBWbI5VC2n9X25OOff_smRFy8QYnqdLQ&oe=63CA3C3B" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>
