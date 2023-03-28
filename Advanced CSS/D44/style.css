@@ -15,6 +15,7 @@ h1 {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
 .row {
     display: flex;
     justify-content: center;
@@ -34,7 +35,11 @@ h1 {
 .box {
     margin: 15px;
     padding: 15px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    
+    /* Resize Option  */
+    resize: both;
+    overflow: auto;
 }
 
 .box:hover {
@@ -42,4 +47,47 @@ h1 {
 }
 
 
-/* Day 42 */
+/* Day 44 */
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    background-color: bisque;
+    float: left;
+    margin-right: 10px;
+    padding: 18px 18px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.pagination a.active {
+    background-color: darkgreen;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: darkgreen;
+    color: white;
+}
+
+.pagination a.dactive {
+    background-color: rgb(221, 9, 9);
+    color: white;
+}
+
+.multi-column {
+    color: black;
+    column-count: 4;
+    column-gap: 30px;
+    column-rule: 2px solid red;
+}
+
+.multi-column h2 {
+    color: salmon;
+    margin-bottom: 20px;
+    column-span: all;
+}
+
+
