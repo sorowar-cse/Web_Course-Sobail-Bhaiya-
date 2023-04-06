@@ -1,0 +1,33 @@
+.author {
+    color: #f00;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.author a {
+    color: rgb(61, 43, 163);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.author a:hover {
+    color: rgb(12, 149, 218);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.author a:active {
+    color: rgb(61, 43, 163);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Class Code Starts Here */
